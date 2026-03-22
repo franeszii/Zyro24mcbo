@@ -1,14 +1,14 @@
 {
-  "name": "AFK Bot",
+  "name": "ZyroBot",
   "bot-account": {
-    "username": "ajwannaclear",
-    "password": "",
+    "username": "ZyroBot",
+    "password": "haslo123",
     "type": "offline"
   },
   "server": {
-    "ip": "zyrohub.falixsrv.me",
-    "port": 50733,
-    "version": "",
+    "ip": "czystesmp.aternos.me",
+    "port": 49648,
+    "version": "1.21.1",
     "try-creative": false
   },
   "position": {
@@ -20,20 +20,20 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "chalol78"
+      "password": "haslo123"
     },
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 10,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "/register haslo123",
+        "/login haslo123",
+        "/login haslo123"
       ]
     },
     "chat-log": true,
